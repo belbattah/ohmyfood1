@@ -1,0 +1,18 @@
+/* Error: Expected newline.
+ *   ,
+ * 1 | .restautittle{
+ *   |              ^
+ *   '
+ *   SASS\pages\firstpage.sass 1:14  @use
+ *   SASS\main.scss 10:1             root stylesheet */
+
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Expected newline.\a   \2577 \a 1 \2502  .restautittle{\d\a   \2502               ^\a   \2575 \a   SASS\\pages\\firstpage.sass 1:14  @use\a   SASS\\main.scss 10:1             root stylesheet";
+}
